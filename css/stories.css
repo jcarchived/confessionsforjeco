@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(121, 208, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: #888;
+}
+
+#stories-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.story {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.story-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.timestamp {
+    color: gray;
+    font-size: 12px;
+}
+
+.story-content {
+    font-size: 16px;
+}
+
+.story-image {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.read-more {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #145dbf;
+}
